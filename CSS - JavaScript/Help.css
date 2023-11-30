@@ -1,0 +1,104 @@
+.Definition1,.Definition2,.Definition3,.Definition4,
+.Definition5,.Definition6,.Definition7,.Definition8,
+.Definition9,.Definition10,.Definition11,.Definition12,
+.Definition13,.Definition14,.Definition15,.Definition16{
+    display: none;
+    margin-left: 1rem;
+}
+
+.Definition_Appear{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 20em;
+    margin-top: 0.3rem;
+}
+
+h5{
+    cursor: pointer;
+}
+
+
+.FAQ_Body{
+    margin: 2rem;
+}
+.Faq_Catergory{
+    margin: 4rem 0rem 8rem 6rem;
+}
+.Faq_Items{
+    margin: 2rem 0rem 2rem 1rem;
+}
+
+
+
+.Consultant_Name{
+    position: relative;
+}
+
+
+.Consultant_Menu_List:hover .Second_Menu{
+    display: block;
+}
+.Second_Menu{
+    background-color: rgba(0, 0, 0, 0.453);
+    backdrop-filter: blur(5px);
+
+    display: none;
+
+    border: solid 1px rgba(255, 255, 255, 0);
+
+
+    z-index: 1;
+}
+.Second_Menu ul li{
+    margin: -1rem 0rem;
+    font-size: 13px;
+    color: grey;
+}
+.Second_Menu ul li a{
+    color: grey; 
+}
+.Second_Menu ul li a:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.Query_Form{
+    padding: 2rem;
+    padding-top: 3rem;
+
+    background-color: rgba(16, 60, 42, 0.566);
+    backdrop-filter: blur(8px);
+    border-top: solid 1px rgba(255, 255, 255, 0.425);
+}
+
+
+.Sumbittion_Button{
+    background-color: #39a37c;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    border: solid 1px rgba(255, 255, 255, 0);
+}
+
+.Sumbittion_Button:hover{
+    background-color: #257356;
+    border: solid 1px rgba(255, 255, 255, 0.325);
+}
+
+input[type=text], input[type=variable], input[type=email], input[type=tel], textarea {
+    width: 100%;
+    padding: 1%;
+    margin: 0.2rem 0% 3% 0%;
+    display: block;
+    border: solid 1px rgba(255, 255, 255, 0);
+    background-color: #ffffff1b;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    resize: vertical;
+}

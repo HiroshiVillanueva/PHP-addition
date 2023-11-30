@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> AlVilla Solutions </title>
+        <link rel="icon" href="CSS - JavaScript/Images/Logo Black.png">
+
+        <link rel="stylesheet" href="CSS - JavaScript/Navigation_Bars.css">
+        <link rel="stylesheet" href="CSS - JavaScript/Scroll_Bar.css">
+        <link rel="stylesheet" href="CSS - JavaScript/Booking.css">
+        <link rel="stylesheet" href="#">
+
+        <script src="CSS - JavaScript/Navbar_Properties.js" ></script>
+        <script src="CSS - JavaScript/Booking.js" ></script>
+    </head>
+
+    <body style="background-image: url(Dark\ Mode.jpg);">
+        <div class="Loader"> <img src="CSS - JavaScript/Videos/Untitled design.gif" alt=""> </div>
+        <!--Horizontal Navigation Bar-->
+        <header id="proven" class="Horizontal_Navigation_Bar_Wrapper">
+
+            <img onclick="NavBarToggle()" id="Menu" src="CSS - JavaScript/Images/hamburger.png" alt="Menu">      
+            <img id="Logo" src="CSS - JavaScript/Images/Logo White.png" alt="Logo" title="AlVilla Solutions">
+            <h1 id="TitleAL" class="Alvilla" >AlVilla Solutions</h1>
+
+
+            <a class="Horizontal_Navigation_List1" href="Booking.html" class="Horizontal_Navigation_Text"> BOOKING </a>
+            <img class="Horizontal_Navigation_List2" style="height: auto; width: 2rem;" src="CSS - JavaScript/Images/profile-user.png" title="Account">
+
+        </header>
+        <!--Horizontal Navigation Bar-->
+
+
+
+        <!--Vertical Navigation Bar-->        
+        <header id="Vertical_Navigator" class="Vertical_Navigation_Bar_Wrapper">
+            <nav class="Selection_Menu">
+                <ul>
+                    <li class="Vertical_Navigation_List">
+                        <a href="index.html" title="Home" ><img id="NavSym" src="CSS - JavaScript/Images/home.png"></a>
+                        <a id="NavSymbols1" href="Home.html" class="Vertical_Navigation_Text"> Home </a>
+                    </li>
+
+                    <li class="Vertical_Navigation_List">
+                        <a href="Explore.html" title="Explore" ><img id="NavSym" src="CSS - JavaScript/Images/programming-code-signs.png"></a>
+                        <a id="NavSymbols11" href="Explore.html" class="Vertical_Navigation_Text"> Explore </a>
+                    </li>
+
+                    <li class="Vertical_Navigation_List">
+                        <a href="Help.html" title="Help" ><img id="NavSym" src="CSS - JavaScript/Images/information.png"></a>
+                        <a id="NavSymbols12" href="Help.html" class="Vertical_Navigation_Text"> Help</a>
+                    </li>
+                </ul>
+                
+            <center><div id="NavSymbols5" class="LineBeak"></center>
+
+            <h4 id="NavSymbols2" class="Recommended_Consultants"> 
+            <center>
+                Recommended
+                Courses
+            </center>
+            </h4>
+
+            <div id="NavSymbols3" class="Consultant_Menu">
+                <ul>
+                    <li class="Consultant_Menu_List">
+                        <a href="" class="Consultant_Name"> Introduction to C </a>
+                        <br>
+                        <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
+                    </li>
+
+                    <li class="Consultant_Menu_List">
+                        <a href="" class="Consultant_Name"> Introduction to Python </a>
+                        <br>
+                        <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
+                    </li>
+
+                    <li class="Consultant_Menu_List">
+                        <a href="" class="Consultant_Name"> Introduction to HTML </a>
+                        <br>
+                        <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
+                    </li>
+
+                    <li class="Consultant_Menu_List">
+                        <a href="" class="Consultant_Name"> Introduction to J Script </a>
+                        <br>
+                        <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="NavSymbols4" class="Button_Wrapper">
+                <a href="#Footer"><button class="Contact_Us" title="Contact Information"> Contact Us </button></a>
+            </div>
+            </nav>
+        </header>
+        <!--Vertical Navigation Bar-->     
+        
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <div id="Expander" class="Content_Home">
+        
+
+        <h1 style="text-align: center;"> BOOK A CONSULTANT</h1>
+        <form class="Forum_Page">
+            <div class="Forum_Divider1">
+                <div class="Forum_List1">
+                    <div>
+                        <label for="FName" ><h5>First Name</h5></label>
+                        <input type="text" id="#" name="FName" placeholder="Enter First Name" required>
+                    </div>
+                    <div>
+                        <label for="LName" ><h5>Last Name</h5></label>
+                        <input type="text" id="#" name="LName" placeholder="Enter Last Name" required>
+                    </div>
+                </div>
+
+                <div class="Forum_List1">
+                    <div>
+                        <label for="Email" ><h5>Email</h5></label>
+                        <input type="email" id="#" name="Email" placeholder="Enter Email" required>
+                    </div>
+                    <div>
+                        <label for="Phone" ><h5>Contact Number</h5></label>
+                        <input type="tel" id="#" name="Phone" placeholder="Enter Phone Number" required>
+                    </div>
+                </div>
+    
+                <div class="Forum_List2">
+                    <label for="Consul" ><h5>Consultant</h5></label>
+                    <select class="#" id="Consul" elected="undefined" required>
+                        <option style="display: none;" disabled selected value> -- select an option -- </option>
+                        <option> Ghen Benedict </option>
+                        <option> Baxter Bracamonte </option>
+                        <option> Carlos Macalolot </option>
+                    </select>
+                </div>
+    
+                <div class="Forum_List1">
+                    <div>
+                        <label for="SchedS" ><h5>Schedule Start</h5></label>
+                        <input type="datetime-local" id="#" name="SchedS" required>
+                    </div>
+                    <div>
+                        <label for="SchedF" ><h5>Schedule End</h5></label>
+                        <input type="datetime-local" id="#" name="SchedF" required>
+                    </div>
+                </div>
+
+                <div class="Forum_List3">
+                    <label for="CodeLang" ><h5>Language</h5></label>
+                    <select class="#" id="CodeLang" required>
+                        <option> HTML </option>
+                        <option> Java Script </option>
+                        <option> C </option>
+                        <option> Python </option>
+                    </select>
+                </div>
+
+                <div class="Forum_List2">
+                    <label for="MQuery" ><h5 onclick="DivideAppear()">Query</h5></label>
+                    <textarea onclick="DivideAppear()" id="#" name="MQuery" placeholder="Summary of your Problem/ Request" style="height: 50px; width: 75%;" required></textarea>
+                </div>
+
+                <div class="Forum_List2">
+                    <label for="Csample" ><h5>Code Sample (optional)</h5></label>
+                    <input type="file" id="#" name="Csample">
+                </div>
+            </div>
+
+            <div id="Divider2" class="Forum_Divider2">
+                <h2 style="color:White">Payment</h2>
+                <div class="Divider_Payment_Menu">
+                    <a href="" class="Divider_Payment"><img src="" alt="Mastercard"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="GCASH"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="CASH"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="PayMaya"></a>
+                </div>
+
+                <div class="Divider_TerCon">
+                    <input type="checkbox" required>
+                    <p style="color:White; text-align: left;">
+                        I have read and agreed to the 
+                        <a target="#" href="Help.html" class="five" style="color: rgb(5, 124, 199);">Terms & Privacy</a>
+                         of our company.
+                    </p>
+                </div>
+
+                <input class="Sumbittion_Button" type="submit" value="Confirm Request">
+
+            </div>
+            
+            
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+            <!--Footer - TOP-->
+            <footer id="Footer" class="Footer_Wrapper">
+                <div class="Footer_List">
+                    <h5>HELP</h5>
+                    <ul>
+                        <li>
+                            <a href="#"> Testing </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 1 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 2 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 3 </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Footer_List">
+                    <h5>ABOUT ALVILLA</h5>
+                    <ul>
+                        <li>
+                            <a href="#"> Testing </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 1 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 2 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 3 </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="Footer_List1">
+                    <h5>PAYMENT</h5>
+                    <div class="Footer_Payment">
+                        <a href="#"> <img    src="#"     alt="BDO"   ></a>
+                        <a href="#"> <img    src="#"     alt="LANDBANK"   ></a>
+                        <a href="#"> <img    src="#"     alt="UNIONBANK"   ></a>
+                        <a href="#"> <img    src="#"     alt="GCASH"   ></a>
+                    </div>
+                </div>
+                <div class="Footer_List">
+                    <h5>FOLLOW US</h5>
+                    <ul>
+                        <li>
+                            <a href="#"> Testing </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 1 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 2 </a>
+                        </li>
+                        <li>
+                            <a href="#"> Testing 3 </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="Footer_Credits">Site design / logo © 2023 Stack Exchange Inc; user contributions</p>
+            </footer>
+            <!--Footer - BOTTOM-->
+        </div>
+    </body>
+</html>
