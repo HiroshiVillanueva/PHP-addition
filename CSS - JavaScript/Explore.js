@@ -1,14 +1,10 @@
-
-
-
-
 $(document).ready(function () {
     var numberofItems = $(".consultant-content .consultant").length; 
     var limitPerPage = 3; //number of consultants
     var totalPages = Math.ceil(numberofItems / limitPerPage);
     var paginationSize = 3;
     var currentPage;
-
+/*shawty like a melodhy in mah head*/
     function showPage(whichPage) {
         if (whichPage < 1 || whichPage > totalPages) return false;
 
