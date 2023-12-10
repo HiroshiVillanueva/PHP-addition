@@ -1,4 +1,4 @@
-function Setter1() {
+ function Setter1() {
     Toggle1();
     Toggle2();
     Toggle3();
